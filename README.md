@@ -1,6 +1,6 @@
 # Exploiting_SMB_Eternal_Blue_2021
 Windows 7 Professional 7601 Service Pack 1 is vulnerable to eternalblue exploit and while exploiting this myself i ran into a number of issues . So , now i will show you how to exploit it without using metasploit .
-Now , i have show step by step on how to exploit this.
+Now , i  will show step by step on how to exploit this.
 1)Download both the files in this repository (42315.py and  mysmb.py)
 I Downloaded the 42315.py from exploitDB{{https://www.exploit-db.com/exploits/42315}
 and mysmb.py from {https://github.com/offensive-security/exploitdb-bin-sploits/raw/master/bin-sploits/42315.py}
